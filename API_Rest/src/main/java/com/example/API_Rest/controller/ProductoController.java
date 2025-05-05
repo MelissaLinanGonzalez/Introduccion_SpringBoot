@@ -26,7 +26,7 @@ public class ProductoController {
         return productos;
     }
 
-    @PostMapping("/productos")
+    @PostMapping("/productosnuevos")
     public Producto crearProducto(@RequestBody Producto producto){
         contadorIDs ++;
         producto.setId(contadorIDs);
@@ -50,7 +50,7 @@ public class ProductoController {
         return null;
     }
 
-    @DeleteMapping("/producto/{id}")
+    @DeleteMapping("/productoborrado/{id}")
     public void eliminarProducto(@PathVariable int id){
         productos.removeIf(producto -> producto.getId() == id);
     }

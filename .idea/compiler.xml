@@ -10,12 +10,14 @@
         <module name="Demmo" />
         <module name="API_Rest" />
         <module name="Ejemplo" />
+        <module name="Cursos" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="API_Rest" options="-parameters" />
+      <module name="Cursos" options="-parameters" />
       <module name="Demmo" options="-parameters" />
       <module name="Ejemplo" options="-parameters" />
       <module name="rest-service" options="-parameters" />
