@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/Demmo/pom.xml" />
         <option value="$PROJECT_DIR$/Ejemplo/pom.xml" />
         <option value="$PROJECT_DIR$/rest-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../API_Rest/pom.xml" />
+        <option value="$PROJECT_DIR$/API_Rest/pom.xml" />
       </list>
     </option>
   </component>
