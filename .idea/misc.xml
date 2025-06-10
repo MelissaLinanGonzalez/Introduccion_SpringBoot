@@ -12,6 +12,8 @@
         <option value="$USER_HOME$/Descargas/Cursos/pom.xml" />
         <option value="$USER_HOME$/Descargas/api/pom.xml" />
         <option value="$PROJECT_DIR$/api/pom.xml" />
+        <option value="$USER_HOME$/Descargas/springboot-restful-webservices/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-restful-webservices/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

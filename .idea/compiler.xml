@@ -12,6 +12,15 @@
         <module name="api (2)" />
         <module name="Ejemplo" />
       </profile>
+      <profile name="Annotation profile for springboot-restful-webservices" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="springboot-restful-webservices" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api" target="21" />
@@ -27,6 +36,7 @@
       <module name="api" options="-parameters" />
       <module name="api (2)" options="-parameters" />
       <module name="rest-service" options="-parameters" />
+      <module name="springboot-restful-webservices" options="-parameters" />
     </option>
   </component>
 </project>
